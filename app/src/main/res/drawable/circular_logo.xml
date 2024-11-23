@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#800080" />
+            <corners android:radius="25dp" />
+            <size
+                android:width="50dp"
+                android:height="50dp" />
+        </shape>
+    </item>
+    <item
+        android:width="50dp"
+        android:height="50dp"
+        android:drawable="@drawable/uw_logo"
+        android:gravity="center">
+        <clip-path>
+            <circle
+                android:radius="25dp"
+                android:fillType="evenOdd" />
+        </clip-path>
+    </item>
+</layer-list>

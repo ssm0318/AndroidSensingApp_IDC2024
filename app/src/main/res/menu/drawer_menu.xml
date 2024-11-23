@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:layout_marginTop="20dp"
+        android:id="@+id/menu_instagram"
+        android:title="@string/instagram" />
+    <item
+        android:id="@+id/menu_tiktok"
+        android:title="@string/tiktok" />
+    <item
+        android:id="@+id/menu_snapchat"
+        android:title="@string/snapchat"
+        android:paddingBottom="16dp" />
+
+    <item
+        android:id="@+id/menu_tracker"
+        android:title="@string/start_tracker" />
+    <item
+        android:id="@+id/menu_stop_tracker"
+        android:title="@string/stop_tracker" />
+</menu>

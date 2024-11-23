@@ -1,0 +1,2 @@
+rootProject.name='DRG2023'
+include ':app'
