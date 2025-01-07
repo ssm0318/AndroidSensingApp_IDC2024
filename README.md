@@ -1,6 +1,4 @@
-# UW DRG 2023 (TBU)
-
-# DRG2023 Android App Documentation
+# IDC 2024 AppMinder
 
 ## Overview
 This application is designed to track the usage statistics of a user's phone. It records data such as application usage, notifications, device usage, etc. The data is saved in the Firebase Realtime Database and local storage in JSON format. The app is designed to be efficient and robust in data tracking and transmission.
@@ -101,5 +99,3 @@ This data class represents a notification posted or removed by an application. T
 
 ### UsageStatsModel.kt
 This data class represents usage statistics for a certain package. The corresponding `UsageStatsListAdapter` is used to manage a queue of these objects.
-
-# AndroidSensingApp_IDC2024
